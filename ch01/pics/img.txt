@@ -1,0 +1,3 @@
+<img src="./pics/dog.jpg" alt="">
+inside "" you can add some message,which appears when somehow the picture was not shown.
+if leave it blank,nothing will be shown.
