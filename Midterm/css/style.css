@@ -1,0 +1,68 @@
+#header1{
+	color: purple;
+	font-family: fantasy;
+	text-align: center;
+	font-size: 80px;
+}
+#address{
+	font-family: cursive;
+	text-align: center;
+	font-size: 30px;
+}
+#img1{
+	width: 100px;
+	margin-right: 30px;
+
+}
+#img2{
+	width: 130px;
+	margin-left: 30px;
+}
+#images{
+	text-align: center;
+}
+.header2{
+	display: inline-block;
+	border-bottom: solid gray;
+
+}
+.li1{
+	color: gray;
+}
+#form{
+	background-color: #DCDCDC;
+}
+.p1{
+	margin-left: 30px;
+	color: gray;
+}
+.p2{
+	margin-left: 30px;
+	color: black;
+}
+#fullname{
+	width: 95%;
+	background-color: #A9A9A9;
+}
+#email{
+	width: 95%;
+	background-color: #A9A9A9;
+}
+#message{
+	width: 95%;
+	height: 150px;
+	background-color: #A9A9A9;
+}
+.button{
+	margin-left: 30px;
+	margin-bottom: 10px;
+	background-color: #A9A9A9;
+}
+#map{
+	border-bottom: solid;
+	text-align: center;
+}
+.f1{
+	text-align: center;
+	font-family: cursive;
+}

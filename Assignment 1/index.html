@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Assignment 1</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon"/>
+
+
+</head>
+<body>
+	<div class="wrapper">
+	
+		
+		
+		<h1>Assignment 1</h1>
+	
+		<nav>
+			<ul class="nav">
+				<li><a href="" title="goes to home">Home</a></li>
+				
+				<li><a href="#aboutinfo" title="goes to who i am">About</a></li>
+
+				<li><a href="#whatsgit" title="goes to whats git">Git</a></li>
+
+				<li><a href="#applyinfo" title="goes to apply">Apply</a></li>
+			</ul>
+		
+		</nav>
+	
+		
+		<h2 id=aboutinfo>About me</h2>
+			<ul class="aboutme">
+				<li>Name: Naoya Shikichi</li>
+				<li>Life: Originally from Japan.Living in Vancouver for education.</li>
+			</ul>
+
+		<div>
+			<table class="skills" border="2" rules="all" width="100%">
+			<caption></caption>
+
+			<tr>
+				<th colspan="2">Skils</th>
+				<th colspan="2">Career</th>
+			</tr>
+			<tr>
+				<td>Hardware</td>
+				<td>Software</td>
+				<td>Job1</td>
+				<td>Job2</td>
+			</tr>
+			<tr>
+				<td>PC Assembly</td>
+				<td rowspan="2">HTML, Javascript, CSS, PHP, Java</td>
+				<td>Game Developer</td>
+				<td>Web Developer</td>
+			</tr>
+			<tr>
+				<td>Networking</td>
+				<td>Unity Developer</td>
+				<td>Database Designer</td>
+				
+			</tr>
+			<tr>
+				<td>A+ certificate</td>
+				<td>C++</td>
+				<td colspan="2">Logo Designer</td>
+				
+			</tr>
+			
+		</table>
+	</div>
+
+
+		<h2 id="whatsgit">What's Git?</h2>
+
+		<article>
+			<p>Every time you save your work, Git creates a commit. A commit is a snapshot of all your files at a point in time. If a file has not changed from one commit to the next, Git uses the previously stored file. This design differs from other systems which store an initial version of a file and keep a record of deltas over time.<br>
+			Every time you save your work, Git creates a commit. A commit is a snapshot of all your files at a point in time. If a file has not changed from one commit to the next, Git uses the previously stored file. This design differs from other systems which store an initial version of a file and keep a record of deltas over time.</p>
+			<ul>
+				<li>git status</li>
+				<li>git add .</li>
+				<li>git commit -m</li>
+				<li>git push</li>
+				<li>git init   etc...</li>
+			</ul>
+		</article>
+
+		<h2 id="applyinfo">Apply</h2>
+
+		<form action="index.html"></form>
+
+		<form action="">
+		
+			<div>
+				<label for="fullname">Your fullname</label><br>
+				<input id="fullname" type="text" placeholder="john due">
+			</div> 
+			<div>
+				<label for="email">Your email</label><br>
+				<input id="email" type="email" placeholder="john.doe@gmail.com">
+			</div>
+			<div>
+				<label for="phonenumber">Your phone number</label><br>
+				<input id="phonenumber" type="number" placeholder="(123) 456-789">
+			</div>
+			<div>
+				<input type="radio" name="gender" value="male">Male
+			
+				<input type="radio" name="gender" value="female">Female
+			
+				<input type="radio" name="gender" value="raherNotSay">Other <br>
+			</div>
+			<div>
+			
+			<select id="mySelect" onchange="myFunction()">
+				   <option value="Web Design" selected>Web Deseign</option>
+				   <option value="Logo design">Logo design</option>
+				   <option value="SEO">SEO</option>
+				   <option value="Internet Marketing">Internet Marketing</option>
+				   <option value="Content Development">Content Development</option>
+				   <option value="Website maintenance">Website maintenance</option>
+			</select>
+		    </div>
+			<p id="demo"></p>
+			<div>
+				<input type="checkbox" name="newsletter checked">
+				<label for="newsletter">I would like to subscribe to your newsletter</label>
+				
+				<input type="checkbox" name="email checked">
+				<label for="email">I accept to receive emails</label>
+				
+				<input type="checkbox" name="phoneCall checked">
+				<label for="phoneCall">I accept to receive phone calls</label>
+			</div>
+			<div>
+				<button onclick="clickSubmit()">Submit</button>
+				<input type="Reset">
+			</div>
+		</form>
+
+	<h3><a href="index.html" target="=_blank"><img src="./images/logo.png" alt="logo"></a></h3>
+	<script src="./js/main.js"></script>
+	</div>
+	<p class="copyright">&copy;Copyright Assignment 1. All rights reserved.</p>
+</body>
+</html>
